@@ -1,0 +1,163 @@
+.advertisement-container {
+    margin: 76px 320px 0px 320px;
+}
+
+.advertisement-sub-container {
+    display: flex;
+    gap: 35px;
+}
+
+.hoverImg {
+    position: relative;
+}
+
+.hoverImg-content {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 50;
+}
+
+.hoverImg-content h1 {
+    font-size: 35px;
+    font-weight: 900;
+    color: #FFB11B;
+    line-height: 40px;
+}
+
+.hoverImg-content p {
+    font-size: 15px;
+    color: #B18D6B;
+    text-align: center;
+}
+
+.cont-img img {
+    width: 295px;
+    height: 440px;
+    transition-duration: 1000ms;
+    cursor: pointer;
+}
+
+.cont-img:hover .hoverImg {
+    background-color: #000;
+}
+
+.cont-img:hover img {
+    opacity: .5;
+}
+
+.center-img-centent {
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    right: 50px;
+    z-index: 10;
+}
+
+.center-img-centent h1 {
+    font-size: 35px;
+    font-weight: 900;
+    color: white;
+    line-height: 40px;
+}
+
+.center-img-centent p {
+    font-size: 15px;
+    color: #1328EC;
+    text-align: center;
+}
+
+.bottom-img1-content {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 10;
+}
+
+.bottom-img1-content h1 {
+    font-size: 35px;
+    font-weight: 900;
+    color: #896541;
+    line-height: 40px;
+}
+
+.bottom-img1-content p {
+    font-size: 15px;
+    color: #B18D6B;
+    text-align: center;
+}
+
+.right-img-content {
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    text-align: center;
+    z-index: 50;
+}
+
+.right-img-content h1{
+    font-size: 35px;
+    font-weight: 900;
+    color: white;
+    line-height: 40px;
+}
+
+.right-img-content p {
+    font-size: 15px;
+    color: #1328EC;
+    text-align: center;
+}
+
+/* Center Img  bottom two*/
+
+.column div {
+    position: relative;
+    float: left;
+    padding: 0;
+}
+
+
+.bottomTwoImg {
+    width: 281px;
+    height: 215px;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    overflow: hidden;
+}
+
+
+.hover03 .bottomTwoImg img {
+    margin-top: 20px;
+    margin-left: 50px;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+.hover03 .bottomTwoImg:hover img {
+    margin-left: 0;
+}
+
+.center-top-img {
+    width: 592px;
+    height: 205px;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    overflow: hidden;
+}
+
+
+.hover02 .center-top-img img {
+    margin-top: -40px;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+.hover02 .center-top-img:hover img {
+    margin-top: 0;
+}

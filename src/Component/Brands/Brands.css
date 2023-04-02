@@ -1,0 +1,7 @@
+.brandImg {
+    transition-duration: .4s;
+}
+
+.brandImg:hover {
+    transform: scale(1.2);
+}

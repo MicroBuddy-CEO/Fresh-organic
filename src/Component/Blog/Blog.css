@@ -1,0 +1,11 @@
+.blog-cont-img img {
+    cursor: pointer;
+}
+
+.blog-cont-img:hover .blogImg {
+    background-color: #000;
+}
+
+.blog-cont-img:hover img {
+    opacity: .5;
+}
